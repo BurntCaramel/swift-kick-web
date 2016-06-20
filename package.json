@@ -1,0 +1,25 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Describe app here",
+  "private": true,
+  "scripts": {
+    "build": "nwb build-react-app",
+    "clean": "nwb clean-app",
+    "start": "nwb serve-react-app",
+    "test": "nwb test",
+    "test:watch": "nwb test --server"
+  },
+  "dependencies": {
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-sow": "^0.2.2",
+    "swift-kick": "^0.2.7"
+  },
+  "devDependencies": {
+    "nwb": "0.11.x"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": ""
+}
